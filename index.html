@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Browser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <button onclick="goBack()">⬅</button>
+        <button onclick="goForward()">➡</button>
+        <button onclick="reloadPage()">⟳</button>
+
+        <input 
+            type="text" 
+            id="urlInput" 
+            placeholder="Search or enter website..."
+        >
+
+        <button onclick="navigate()">Go</button>
+    </div>
+
+    <!-- BROWSER VIEW -->
+    <iframe id="browserFrame"></iframe>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

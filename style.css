@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    padding: 10px;
+    background: #202124;
+    align-items: center;
+}
+
+.navbar button {
+    margin-right: 8px;
+    padding: 8px;
+    border: none;
+    background: #5f6368;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #787c80;
+}
+
+.navbar input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+/* Browser Frame */
+iframe {
+    width: 100%;
+    height: calc(100vh - 50px);
+    border: none;
+}
